@@ -1,0 +1,31 @@
+dia,data,semana,slot,formato,pilar,serie,titulo,palavra_cta,esforco,gravar_no_bloco,status
+1,2026-09-28,1,Seg · Pílula,Yap 40s,Ciência traduzida,pílula de ciência,"Sua pele não é difícil. Ela está sobrecarregada.",PELE,médio,1,A gravar
+2,2026-09-29,1,Ter · TESTE 1,Yap 25–35s (trial),Ciência traduzida,trial,"🧪 Teste 1 · Minha rotina tem 3 passos (porta paga)",PELE,médio,1,A gravar
+3,2026-09-30,1,Qua · 7s,Reel b-roll 7s texto na tela,Papo de amiga,apoio,"sua rotina de pele não é ruim. ela é longa demais pra sua vida.",salvar,muito baixo,1,A gravar
+4,2026-10-01,1,Qui · TESTE 2,Yap 25–35s (trial),Terreno & longevidade,trial,"🧪 Teste 2 · A primeira coisa que eu peço não é foto (porta grátis)",BRINDE,médio,1,A gravar
+5,2026-10-02,1,Sex · Venda leve,Yap 35s,Papo de amiga,apoio,"A rotina certa é a que sobrevive à sua terça-feira",CONSULTORIA,médio,1,A gravar
+6,2026-10-03,1,Sáb · Casa,Dump 6–8 fotos,Diário aberto,era dos 35,"Dump · a semana que não era pra postar",comentário,muito baixo,1,A gravar
+7,2026-10-04,1,Dom · Ritual,Stories,—,apoio,"Enquete: quantos passos tem sua rotina da noite? + decisão dos testes",—,zero,—,A gravar
+8,2026-10-05,2,Seg · Pílula,Yap 40s,Terreno & longevidade,pílula de ciência,"O melhor cosmético da sua vida pode ser o travesseiro",CANSADA,médio,2,A gravar
+9,2026-10-06,2,Ter · Rotina vivida,GRWM + ciência 30s,Diário aberto,era dos 35,"Skincare de noite sem glamour, feito cansada",CANSADA,baixo,2,A gravar
+10,2026-10-07,2,Qua · Salvável,Carrossel 7 slides,Ciência traduzida,apoio,"Sono: o turno da noite da sua pele",salvar + CANSADA,baixo,2,A gravar
+11,2026-10-08,2,Qui · Venda,Yap 45s,Terreno & longevidade,apoio,"Consultoria comum te diz o que comprar",CONSULTORIA,médio,2,A gravar
+12,2026-10-09,2,Sex · Papo de amiga,Yap 35s,Terreno & longevidade,pílula de ciência,"Comida anti-inflamatória é arroz, feijão e cor no prato",PRATO,baixo,2,A gravar
+13,2026-10-10,2,Sáb · Casa,B-roll 10s,Diário aberto,era dos 35,"Prato colorido sendo montado",PRATO,muito baixo,2,A gravar
+14,2026-10-11,2,Dom · Ritual,Stories,—,apoio,"Caixinha: o que você comeu hoje que sua pele agradece?",—,zero,—,A gravar
+15,2026-10-12,3,Seg · Pílula,Yap 40s,Ciência traduzida,pílula de ciência,"Queda de cabelo depois dos 35 quase nunca é só o shampoo",CABELO,médio,3,A gravar
+16,2026-10-13,3,Ter · 7s,Reel b-roll 7s texto na tela,Papo de amiga,apoio,"a versão mais bonita de você é a menos cansada",TEMPO,muito baixo,3,A gravar
+17,2026-10-14,3,Qua · Salvável,Carrossel 6 slides,Diário aberto,apoio,"Minha rotina da manhã em 4 passos preguiçosos",salvar + TEMPO,baixo,3,A gravar
+18,2026-10-15,3,Qui · Venda,Yap 45s,Ciência traduzida,apoio,"Uma variável por vez",CONSULTORIA,médio,3,A gravar
+19,2026-10-16,3,Sex · Ep. da era,Yap 35s,Diário aberto,era dos 35,"A semana em que eu não segui a minha própria rotina",seguir + comentário,baixo,3,A gravar
+20,2026-10-17,3,Sáb · Casa,Repost do teste vencedor,(do vencedor),trial,"🏁 Repost oficial do reel de teste vencedor",palavra vencedora,zero,—,A gravar
+21,2026-10-18,3,Dom · Ritual,Stories,—,apoio,"Enquete 6 frentes: qual te derruba mais? + caixinha",—,zero,—,A gravar
+22,2026-10-19,4,Seg · Pílula,Yap 40s,Ciência traduzida,pílula de ciência,"Pele trabalha em ciclos de 28 dias. Você está julgando em 3.",DIÁRIO,médio,4,A gravar
+23,2026-10-20,4,Ter · Rotina vivida,GRWM + ciência 30s,Ciência traduzida,era dos 35,"Por que a ORDEM do skincare importa",PELE,baixo,4,A gravar
+24,2026-10-21,4,Qua · 7s,Reel b-roll 7s texto na tela,Papo de amiga,apoio,"a rotina que você mantém vale mais que a perfeita que você abandona",EBOOK,muito baixo,4,A gravar
+25,2026-10-22,4,Qui · Venda,Yap 45s,Terreno & longevidade,apoio,"Seis frentes, um terreno (a coleção)",EBOOK,médio,4,A gravar
+26,2026-10-23,4,Sex · Q&A,Yap 45s,Papo de amiga,apoio,"3 perguntas que chegaram na caixinha esse mês",caixinha,baixo,4,A gravar
+27,2026-10-24,4,Sáb · Casa,Dump + marco leve,Diário aberto,era dos 35,"30 dias de ficha: o que a minha pele me contou",DIÁRIO,muito baixo,4,A gravar
+28,2026-10-25,4,Dom · Ritual,Stories,—,apoio,"Enquete: por qual ebook você começou? + caixinha de novembro",—,zero,—,A gravar
+29,2026-10-26,fecho,Seg · MARCO,Yap 50s,Diário aberto,era dos 35,"🏁 30 dias depois: o que mudou e o que NÃO mudou",CONSULTORIA,médio,4,A gravar
+30,2026-10-27,fecho,Ter · Recap,Carrossel 8 slides,Ciência traduzida,apoio,"As 6 frentes em 6 frases",ANÁLISE,baixo,4,A gravar
