@@ -2,6 +2,8 @@
 
 **A ideia:** um perfil em formato **daily**. Todo dia sai um reel de 7 segundos mostrando você vivendo o ritual daquele dia do desafio. O reel mostra o produto funcionando, e a legenda pede para a pessoa mandar uma palavra no direct. Você responde com o link do site do ebook, que também fica na bio.
 
+**A mensagem do perfil:** romantizar a vida é o começo, não o objetivo. O objetivo é **construir uma vida pela qual vale a pena viver**. Os rituais ensinam a prestar atenção. O planner, os hábitos, o cardápio e os checkpoints transformam essa atenção em uma vida construída, dia após dia. Todo reel mostra um detalhe bonito, e toda legenda lembra que ele é um tijolo dessa construção.
+
 ---
 
 ## 1. Montando o perfil
@@ -18,8 +20,8 @@
 
 **Bio** (o limite é de 150 caracteres):
 ```
-Romantizando a vida, um ritual por dia ☕🌷
-Desafio de 90 dias · 3/10 → 31/12
+Construindo uma vida pela qual vale a pena viver 🌷
+Um ritual por dia · 3/10 → 31/12
 📩 Manda QUERO no direct ou toque no link 👇
 ```
 
@@ -56,14 +58,14 @@ Desafio de 90 dias · 3/10 → 31/12
 - **Gravar:** um calendário mostrando outubro, e você circulando o dia 3.
 - **Texto:** `Todo mundo vai esperar janeiro.` → `Eu começo dia 3 de outubro.`
 - **Legenda:**
-  > De 3 de outubro a 31 de dezembro são exatamente 90 dias. Vou romantizar a minha vida um dia de cada vez, e vou postar tudo aqui.
+  > De 3 de outubro a 31 de dezembro são exatamente 90 dias. Vou usar esses dias para construir uma vida pela qual vale a pena viver, um ritual de cada vez. E vou postar tudo aqui.
   > Quer fazer comigo? Me manda **QUERO** no direct que eu te mando o link do caderno do desafio. 📩
 
 **01/10 · Reel B**
 - **Gravar:** mãos folheando o caderno impresso ou no iPad.
-- **Texto:** `90 rituais pequenos` → `para eu não chegar em dezembro no automático`
+- **Texto:** `90 rituais pequenos` → `para construir a vida que eu quero, em vez de só esperar por ela`
 - **Legenda:**
-  > Um ritual por dia, com planner, tracker de hábitos, cardápio e diário. Tudo num PDF só.
+  > Romantizar a vida é o começo. Construir uma vida pela qual vale a pena viver é o objetivo. Um ritual por dia, com planner, tracker de hábitos, cardápio e diário. Tudo num PDF só.
   > Manda **QUERO** no direct que eu te mando o link com tudo. 🤍
 
 **02/10 · Reel C**
@@ -107,12 +109,20 @@ Desafio de 90 dias · 3/10 → 31/12
 
 Confira os dias da semana antes de postar. Três textos citam o dia da semana, e as datas batem: dia 17 cai numa **segunda** (19/10), dia 22 num **sábado** (24/10) e dia 25 numa **terça** (27/10).
 
+### Frases de apoio
+Para usar em qualquer reel, como segunda frase na tela ou na legenda:
+- `romantizar é o começo. construir é o objetivo.`
+- `uma vida boa não acontece em janeiro. ela é construída numa terça-feira comum.`
+- `não estou esperando a vida melhorar. estou construindo.`
+- `90 dias. um ritual por vez. uma vida pela qual vale a pena viver.`
+- `o que você repete todo dia vira a sua vida.`
+
 ### Legendas dos reels diários
-Use um modelo por dia, alternando entre eles. Troque o **[ritual]** pelo ritual daquele dia.
+Use um modelo por dia, alternando entre os seis. Troque o **[ritual]** pelo ritual daquele dia.
 
 **Modelo 1: bastidor**
 > Dia [XX] de 90: [ritual].
-> Parece pequeno, mas é assim que o ano muda: um dia comum de cada vez.
+> Parece pequeno, mas é assim que uma vida vai sendo construída: um dia comum de cada vez.
 > Quer fazer comigo? Me manda **QUERO** no direct que eu te mando o link do caderno com os 90 rituais. 📩
 
 **Modelo 2: ainda dá tempo**
@@ -128,8 +138,13 @@ Use um modelo por dia, alternando entre eles. Troque o **[ritual]** pelo ritual 
 > E se quiser os outros 89, me manda **QUERO** no direct.
 
 **Modelo 5: fim do ano**
-> Faltam [N] dias para o ano acabar. Eu escolhi vivê-los prestando atenção.
+> Faltam [N] dias para o ano acabar. Eu escolhi usá-los para construir uma vida pela qual vale a pena viver.
 > Manda **QUERO** no direct para receber o link do caderno. 📩
+
+**Modelo 6: construir**
+> Romantizar é deixar o dia bonito. Construir é fazer isso virar a sua vida.
+> O caderno junta os dois: um ritual por dia e o planejamento para ele durar.
+> Manda **QUERO** no direct que eu te mando o link. 🤍
 
 ---
 
@@ -139,6 +154,7 @@ Use um modelo por dia, alternando entre eles. Troque o **[ritual]** pelo ritual 
 
 **Quando a pessoa manda QUERO:**
 > Oii! Que bom que você quer fazer comigo 🤍
+> É um desafio de 90 dias para construir uma vida pela qual vale a pena viver, com um pequeno ritual por dia.
 > O caderno *90 dias romantizando minha vida* é um PDF com 105 páginas: 90 rituais, diário, planner semanal, tracker de hábitos, cardápio e checkpoints nos dias 30, 60 e 90.
 > Você pode imprimir ou usar no iPad (funciona no GoodNotes).
 > Custa R$ 27, pagamento único, e você recebe o PDF por e-mail depois da compra.
