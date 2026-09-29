@@ -93,6 +93,6 @@ O caderno é gerado pelo script `workbook/build.py`:
 
 ## 6. O que eu não sei (decida você)
 
-- **Preço:** não tenho dados confiáveis do mercado brasileiro. Pesquise de 5 a 10 planners digitais parecidos na Hotmart, Kiwify, Etsy ou Shopee e posicione o seu preço a partir disso.
+- **Preço:** R$ 27 (definido por você). Pagamento único.
 - **Plataforma:** Hotmart e Kiwify entregam o PDF automaticamente. A Etsy alcança compradoras fora do Brasil, mas aí o produto precisaria de uma versão em inglês.
 - **Registro de marca:** "AMADA" foi um nome provisório que eu escolhi a partir do nome do seu repositório. Confirme se o nome está livre antes de usar.
