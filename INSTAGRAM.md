@@ -1,6 +1,6 @@
 # Instagram do *90 dias romantizando minha vida*
 
-**A ideia:** um perfil em formato **daily**. Todo dia sai um reel de 7 segundos mostrando você vivendo o ritual daquele dia do desafio. O reel mostra o produto funcionando, e a legenda leva a pessoa a pedir o caderno pelo direct.
+**A ideia:** um perfil em formato **daily**. Todo dia sai um reel de 7 segundos mostrando você vivendo o ritual daquele dia do desafio. O reel mostra o produto funcionando, e a legenda pede para a pessoa mandar uma palavra no direct. Você responde com o link do site do ebook, que também fica na bio.
 
 ---
 
@@ -20,12 +20,14 @@
 ```
 Romantizando a vida, um ritual por dia ☕🌷
 Desafio de 90 dias · 3/10 → 31/12
-📩 Manda QUERO no direct e receba o caderno
+📩 Manda QUERO no direct ou toque no link 👇
 ```
 
 **Foto de perfil:** o "90" da capa, em creme sobre o fundo terracota. Aparece bem mesmo pequena.
 
-**Link na bio:** o link de pagamento (Hotmart ou Kiwify) ou a página de vendas.
+**Link na bio:** o site do ebook, **[LINK DO SITE]**. Quem visita o perfil compra direto por ali. Quem vem de um reel manda a palavra no direct e recebe o mesmo link.
+
+**Por que usar os dois caminhos:** no reel a pessoa não vê o link da bio. Mandar uma palavra é mais rápido do que ir até o perfil, e a conversa no direct abre espaço para você tirar dúvidas antes da compra.
 
 **Destaques** (crie aos poucos):
 - **o caderno:** vídeo folheando as páginas
@@ -55,21 +57,21 @@ Desafio de 90 dias · 3/10 → 31/12
 - **Texto:** `Todo mundo vai esperar janeiro.` → `Eu começo dia 3 de outubro.`
 - **Legenda:**
   > De 3 de outubro a 31 de dezembro são exatamente 90 dias. Vou romantizar a minha vida um dia de cada vez, e vou postar tudo aqui.
-  > Quer fazer comigo? Me manda **QUERO** no direct que eu te envio o caderno do desafio. 📩
+  > Quer fazer comigo? Me manda **QUERO** no direct que eu te mando o link do caderno do desafio. 📩
 
 **01/10 · Reel B**
 - **Gravar:** mãos folheando o caderno impresso ou no iPad.
 - **Texto:** `90 rituais pequenos` → `para eu não chegar em dezembro no automático`
 - **Legenda:**
   > Um ritual por dia, com planner, tracker de hábitos, cardápio e diário. Tudo num PDF só.
-  > Manda **QUERO** no direct que eu te passo tudo. 🤍
+  > Manda **QUERO** no direct que eu te mando o link com tudo. 🤍
 
 **02/10 · Reel C**
 - **Gravar:** o caderno fechado na mesa, com um café do lado.
 - **Texto:** `amanhã começa.` → `vem comigo?`
 - **Legenda:**
   > Amanhã é o dia 1. Se você quiser começar junto, ainda dá tempo de receber o caderno hoje.
-  > Me manda **QUERO** no direct. 📩
+  > Me manda **QUERO** no direct que eu te mando o link. 📩
 
 ### O desafio (um reel por dia)
 
@@ -111,7 +113,7 @@ Use um modelo por dia, alternando entre eles. Troque o **[ritual]** pelo ritual 
 **Modelo 1: bastidor**
 > Dia [XX] de 90: [ritual].
 > Parece pequeno, mas é assim que o ano muda: um dia comum de cada vez.
-> Quer fazer comigo? Me manda **QUERO** no direct que eu te envio o caderno com os 90 rituais. 📩
+> Quer fazer comigo? Me manda **QUERO** no direct que eu te mando o link do caderno com os 90 rituais. 📩
 
 **Modelo 2: ainda dá tempo**
 > Não precisa ter começado no dia 1. Entra hoje e segue daqui. O desafio é sobre voltar, não sobre ser perfeita.
@@ -119,7 +121,7 @@ Use um modelo por dia, alternando entre eles. Troque o **[ritual]** pelo ritual 
 
 **Modelo 3: o que tem dentro**
 > Esse ritual está no caderno *90 dias romantizando minha vida*, junto com o planner semanal, o tracker de hábitos, o cardápio e o diário do dia.
-> **QUERO** no direct e eu te mando tudo. 📩
+> **QUERO** no direct e eu te mando o link. 📩
 
 **Modelo 4: pergunta** (gera comentário)
 > Você faria esse ritual hoje? Me conta aqui embaixo. 👇
@@ -127,7 +129,7 @@ Use um modelo por dia, alternando entre eles. Troque o **[ritual]** pelo ritual 
 
 **Modelo 5: fim do ano**
 > Faltam [N] dias para o ano acabar. Eu escolhi vivê-los prestando atenção.
-> Manda **QUERO** no direct para receber o caderno. 📩
+> Manda **QUERO** no direct para receber o link do caderno. 📩
 
 ---
 
@@ -139,11 +141,12 @@ Use um modelo por dia, alternando entre eles. Troque o **[ritual]** pelo ritual 
 > Oii! Que bom que você quer fazer comigo 🤍
 > O caderno *90 dias romantizando minha vida* é um PDF com 105 páginas: 90 rituais, diário, planner semanal, tracker de hábitos, cardápio e checkpoints nos dias 30, 60 e 90.
 > Você pode imprimir ou usar no iPad (funciona no GoodNotes).
-> Custa R$ 27, pagamento único, e você recebe na hora por e-mail:
-> 👉 [LINK DO CHECKOUT]
+> Custa R$ 27, pagamento único, e você recebe o PDF por e-mail depois da compra.
+> Aqui está o site com todos os detalhes e o botão de compra:
+> 👉 [LINK DO SITE]
 
 **Se ela não comprar em 24 horas:**
-> Oi, passando só pra lembrar do caderno 🌷 Hoje é o dia [XX] do desafio. Se quiser entrar, o link continua aqui: [LINK]. Qualquer dúvida, me chama!
+> Oi, passando só pra lembrar do caderno 🌷 Hoje é o dia [XX] do desafio. Se quiser entrar, o link continua aqui: [LINK DO SITE]. Qualquer dúvida, me chama!
 
 **Respostas para dúvidas comuns:**
 - *"Já passou do dia 3, ainda dá?"*
@@ -151,7 +154,7 @@ Use um modelo por dia, alternando entre eles. Troque o **[ritual]** pelo ritual 
 - *"É físico?"*
   > É digital, um PDF. Você recebe por e-mail logo depois do pagamento e pode imprimir se quiser.
 - *"Tá caro / depois eu vejo"*
-  > Entendo! São R$ 27 por 90 dias de material, 30 centavos por dia. Se preferir pensar, o link fica aqui: [LINK]
+  > Entendo! São R$ 27 por 90 dias de material, 30 centavos por dia. Se preferir pensar, o link fica aqui: [LINK DO SITE]
 - *"Posso dar de presente?"*
   > Pode! Na hora da compra, coloque o e-mail da pessoa.
 
