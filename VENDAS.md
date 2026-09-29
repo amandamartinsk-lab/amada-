@@ -13,7 +13,7 @@ Imagens para o anúncio: `workbook/dist/previews/`
 | Capa, sumário com links, boas-vindas e "como usar" | 3 |
 | Minhas intenções (quem eu quero ser em 31/12) | 1 |
 | Mapa dos 90 dias (pintar cada dia cumprido) | 1 |
-| Os 90 rituais, um por dia, com data | 3 |
+| Os 90 rituais, um por dia, com data (uma página por mês) | 3 |
 | Calendários de outubro, novembro e dezembro | 3 |
 | 13 semanas, cada uma com planner semanal, tracker de hábitos e cardápio com lista de compras | 39 |
 | Diário de 90 dias (2 dias por página, com o ritual do dia) | 45 |

@@ -198,16 +198,26 @@ def mapa():
 
 
 def rituais_paginas():
+    """Uma página por mês, com as linhas dividindo a altura igualmente."""
+    por_mes = {}
+    for n in range(1, DIAS + 1):
+        por_mes.setdefault((dia(n).year, dia(n).month), []).append(n)
     out = []
-    for parte, (a, b) in enumerate([(1, 30), (31, 60), (61, 90)]):
+    for k, ((ano, m), ns) in enumerate(por_mes.items()):
         itens = ""
-        for n in range(a, b + 1):
-            itens += (f'<li><span class="rn">{n:02d}</span>'
+        for n in ns:
+            d = dia(n)
+            cp = " cp" if n in (30, 60, 90) else ""
+            itens += (f'<li class="{cp.strip()}"><a class="rn" href="#dia-{n}">{n:02d}</a>'
                       f'<span class="rt">{e(RITUAIS[n - 1])}</span>'
-                      f'<span class="rd">{curta(dia(n))}</span></li>')
-        titulo = cabecalho("os 90 ", "rituais", f"parte {parte + 1} de 3")
-        out.append(pagina(f'{titulo}<ol class="rituais">{itens}</ol>',
-                          ancora="rituais" if parte == 0 else None))
+                      f'<span class="rd">{SEMANA_CURTA[d.weekday()]} · {d.day:02d}/{d.month:02d}</span>'
+                      f'<i class="rc"></i></li>')
+        faixa = f"dias {ns[0]:02d} a {ns[-1]:02d}"
+        titulo = cabecalho("os rituais de ", MESES[m - 1], faixa)
+        corpo = (f'{titulo}<div class="rit-cols rotulo"><span>dia</span><span>ritual</span>'
+                 f'<span>data</span><span>feito</span></div>'
+                 f'<ol class="rituais" style="grid-template-rows: repeat({len(ns)}, 1fr)">{itens}</ol>')
+        out.append(pagina(corpo, ancora="rituais" if k == 0 else None))
     return out
 
 

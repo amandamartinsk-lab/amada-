@@ -98,11 +98,17 @@ a { color: inherit; text-decoration: none; }
 .lg.vazio { background: none; border: 0.8px solid var(--bege); }
 
 /* rituais */
-.rituais { list-style: none; }
-.rituais li { display: grid; grid-template-columns: 10mm 1fr 20mm; align-items: baseline; border-bottom: 0.6px solid var(--linha); padding: 2mm 0; }
-.rn { font-family: var(--serif); color: var(--rose); font-size: 11pt; }
-.rt { font-size: 10pt; }
-.rd { font-family: var(--sans); font-size: 6pt; letter-spacing: .1em; text-align: right; color: var(--suave); }
+.rit-cols, .rituais li { display: grid; grid-template-columns: 11mm 1fr 22mm 9mm; column-gap: 3mm; align-items: center; }
+.rit-cols { padding-bottom: 2mm; border-bottom: 0.8px solid var(--tinta); }
+.rit-cols span:nth-child(3) { text-align: right; }
+.rit-cols span:nth-child(4) { text-align: center; }
+.rituais { list-style: none; flex: 1; display: grid; min-height: 0; }
+.rituais li { border-bottom: 0.6px solid var(--linha); min-height: 0; }
+.rituais li.cp { background: #F4E6E1; }
+.rn { font-family: var(--serif); color: var(--rose); font-size: 12pt; padding-left: 1.5mm; }
+.rt { font-size: 9.5pt; line-height: 1.25; }
+.rd { font-family: var(--sans); font-size: 6.3pt; letter-spacing: .08em; text-align: right; color: var(--suave); white-space: nowrap; }
+.rc { justify-self: center; width: 3.2mm; height: 3.2mm; border: 0.8px solid var(--bege); }
 
 /* mensal */
 .cal { display: grid; grid-template-columns: repeat(7, 1fr); border-top: 0.8px solid var(--linha); border-left: 0.8px solid var(--linha); }
