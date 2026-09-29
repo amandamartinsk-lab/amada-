@@ -345,6 +345,10 @@ def diario(s):
         par = s[k:k + 2]
         corpo = "".join(bloco_dia(n) for n in par)
         out.append(pagina(corpo, "diario"))
+        for n in par:
+            if n in (30, 60, 90):
+                # o checkpoint vem logo depois da página do seu dia
+                out.append(checkpoint(n))
     return out
 
 
@@ -391,10 +395,6 @@ def montar():
     for i, s in enumerate(SEMANAS, 1):
         paginas += [planner_semanal(i, s), tracker(i, s), cardapio(i, s)]
         paginas += diario(s)
-        for n in (30, 60, 90):
-            if n in s:
-                # o checkpoint entra depois da semana que contém o dia
-                paginas.append(checkpoint(n))
     paginas.append(carta_final())
     css = open(os.path.join(AQUI, "style.css"), encoding="utf-8").read()
     return f"""<!doctype html><html lang="pt-BR"><head><meta charset="utf-8">
