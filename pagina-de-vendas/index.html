@@ -1,159 +1,187 @@
-<title>90 Dias de Vida Bonita</title>
-<meta name="description" content="Um caderno digital com 90 rituais para romantizar a sua rotina, de 3 de outubro a 31 de dezembro.">
+<title>90 Dias Romantizando Minha Vida</title>
+<meta name="description" content="Um caderno digital da Regenerar, por Amanda Martins: 90 rituais para romantizar a sua rotina, de 3 de outubro a 31 de dezembro.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=Lora:ital,wght@0,400;1,400&family=Montserrat:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;1,6..72,300;1,6..72,400&family=Archivo:wght@400;500;600&family=Ephesis&display=swap">
 <style>
-/* Layout: a própria folha do caderno. Coluna de leitura estreita, o mapa dos 90 dias como peça central, a oferta como uma página destacada. */
-/* Cores idênticas às do caderno (workbook/style.css). Um visual só, claro, em qualquer tema do aparelho. */
+/* Layout: o topo repete a capa do ebook (terracota, círculos, "90" enorme); o resto é a página creme do caderno, com o mapa dos 90 dias no centro e a oferta como uma folha destacada. */
+/* Cores e fontes tiradas do ebook "90 dias romantizando minha vida" (Regenerar). Um visual só, claro. */
 :root {
-  --papel: #FBF8F3;
-  --creme: #F3ECE2;
-  --tinta: #3A3431;
-  --suave: #7D726A;
-  --rose: #B8837A;
-  --bege: #C9B8A6;
-  --rose-claro: #F4E6E1;
-  --linha: #DDD2C6;
-  --botao-txt: #FBF8F3;
-  --sombra: rgba(58, 52, 49, .16);
-  --display: 'Cormorant Garamond', 'Cormorant', Georgia, 'Times New Roman', serif;
-  --texto: 'Lora', Georgia, 'Times New Roman', serif;
-  --util: 'Montserrat', 'Helvetica Neue', Arial, sans-serif;
+  --papel: #FBF8F2;
+  --creme: #F3EADF;
+  --areia: #EDE5D8;
+  --tinta: #2A211C;
+  --texto: #5B5348;
+  --suave: #8A7A66;
+  --terracota: #A9795A;
+  --terracota-claro: #B98A6A;
+  --cacau: #8D725D;
+  --vermelho: #BE3A2B;
+  --azul: #79A3C3;
+  --azul-escuro: #4F7590;
+  --azul-claro: #E9F0F5;
+  --rosa: #F7E6E2;
+  --linha: #D6CBB6;
+  --sombra: rgba(42, 33, 28, .18);
+  --display: 'Newsreader', Georgia, 'Times New Roman', serif;
+  --corpo: 'Archivo', 'Helvetica Neue', Arial, sans-serif;
+  --assinatura: 'Ephesis', 'Brush Script MT', cursive;
   color-scheme: light;
 }
 
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } * { transition: none !important; } }
-body { margin: 0; background: var(--papel); color: var(--tinta); font-family: var(--texto); font-size: 17px; line-height: 1.7; -webkit-font-smoothing: antialiased; }
+body { margin: 0; background: var(--papel); color: var(--tinta); font-family: var(--corpo); font-size: 16.5px; line-height: 1.7; -webkit-font-smoothing: antialiased; }
 img { max-width: 100%; height: auto; display: block; }
 a { color: inherit; }
-:focus-visible { outline: 2px solid var(--rose); outline-offset: 3px; }
+:focus-visible { outline: 2px solid var(--vermelho); outline-offset: 3px; }
 
 .wrap { max-width: 1080px; margin: 0 auto; padding-inline: 20px; }
 .estreito { max-width: 640px; }
 section { padding-block: 88px; }
 section + section { border-top: 1px solid var(--linha); }
 
-.rotulo { font-family: var(--util); font-size: 11.5px; font-weight: 500; letter-spacing: .26em; text-transform: uppercase; color: var(--suave); }
-h1, h2, h3 { font-family: var(--display); font-weight: 500; line-height: 1.05; text-wrap: balance; margin: 0; }
+.rotulo { font-family: var(--corpo); font-size: 11px; font-weight: 500; letter-spacing: .28em; text-transform: uppercase; color: var(--vermelho); }
+h1, h2, h3 { font-family: var(--display); font-weight: 300; line-height: 1.05; text-wrap: balance; margin: 0; }
 h2 { font-size: clamp(38px, 6vw, 58px); }
-h2 em, h1 em { font-style: italic; font-weight: 400; color: var(--rose); }
+h2 em { font-style: italic; color: var(--terracota); }
 p { margin: 0; }
 
-.botao { display: inline-flex; align-items: center; justify-content: center; gap: 10px; background: var(--rose); color: var(--botao-txt); text-decoration: none; font-family: var(--util); font-size: 13px; font-weight: 600; letter-spacing: .18em; text-transform: uppercase; padding: 18px 30px; border-radius: 2px; transition: transform .2s, box-shadow .2s; }
+.botao { display: inline-flex; align-items: center; justify-content: center; gap: 10px; background: var(--vermelho); color: var(--papel); text-decoration: none; font-family: var(--corpo); font-size: 12.5px; font-weight: 600; letter-spacing: .2em; text-transform: uppercase; padding: 18px 30px; border-radius: 2px; transition: transform .2s, box-shadow .2s; }
 .botao:hover { transform: translateY(-2px); box-shadow: 0 10px 24px var(--sombra); }
 
+.logo { width: 42px; height: 24px; flex: none; }
+
 /* topo */
-.topo { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 10; background: color-mix(in srgb, var(--papel) 92%, transparent); backdrop-filter: blur(8px); border-bottom: 1px solid var(--linha); }
-.topo .wrap { display: flex; justify-content: space-between; align-items: center; padding-block: 12px; }
-.marca { font-family: var(--util); font-size: 13px; font-weight: 500; letter-spacing: .5em; color: var(--rose); }
+.topo { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 10; background: color-mix(in srgb, var(--papel) 94%, transparent); backdrop-filter: blur(8px); border-bottom: 1px solid var(--linha); }
+.topo .wrap { display: flex; justify-content: space-between; align-items: center; padding-block: 12px; gap: 12px; }
+.marca { display: flex; align-items: center; gap: 12px; font-size: 11.5px; font-weight: 500; letter-spacing: .32em; text-transform: uppercase; color: var(--tinta); line-height: 1.35; }
+.marca small { display: block; font-size: 10px; letter-spacing: .28em; color: var(--suave); }
 .topo .botao { padding: 11px 18px; font-size: 11px; }
 
-/* capa */
-.capa { padding-block: 64px 96px; }
-.capa .wrap { display: grid; grid-template-columns: 1.1fr .9fr; gap: 56px; align-items: center; }
-.capa-texto { display: flex; flex-direction: column; gap: 22px; min-width: 0; }
-.capa h1 { font-size: clamp(56px, 9vw, 104px); letter-spacing: -.01em; }
-.capa .lead { font-size: 19px; color: var(--suave); max-width: 32ch; }
-.contagem { display: flex; align-items: baseline; gap: 14px; border-top: 1px solid var(--linha); border-bottom: 1px solid var(--linha); padding-block: 14px; }
-.contagem b { font-family: var(--display); font-weight: 500; font-size: 52px; line-height: 1; color: var(--rose); font-variant-numeric: tabular-nums; }
-.contagem span { font-size: 15px; color: var(--suave); line-height: 1.4; }
+/* capa (igual à do ebook) */
+.capa { background: var(--terracota); color: var(--tinta); position: relative; overflow: hidden; padding-block: 72px 88px; }
+.capa::before, .capa::after { content: ""; position: absolute; border-radius: 50%; }
+.capa::before { width: 760px; height: 760px; right: -220px; top: 60px; background: var(--terracota-claro); }
+.capa::after { width: 540px; height: 540px; right: -150px; top: 170px; background: var(--cacau); }
+.capa .wrap { position: relative; z-index: 1; display: grid; grid-template-columns: 1.15fr .85fr; gap: 48px; align-items: center; }
+.capa-texto { display: flex; flex-direction: column; gap: 20px; min-width: 0; }
+.capa .rotulo { color: var(--tinta); }
+.capa h1 { display: flex; flex-direction: column; }
+.capa h1 .n { font-size: clamp(150px, 22vw, 260px); line-height: .8; color: var(--papel); letter-spacing: -.02em; }
+.capa h1 .d { font-size: clamp(44px, 6vw, 64px); line-height: 1; margin-top: 14px; }
+.capa h1 em { font-size: clamp(40px, 5.6vw, 64px); line-height: 1.05; color: var(--papel); }
+.fio { width: 92px; border-top: 2px solid var(--vermelho); }
+.capa .lead { font-family: var(--display); font-style: italic; font-size: 22px; line-height: 1.35; max-width: 30ch; }
+.contagem { display: flex; align-items: baseline; gap: 14px; border-top: 1px solid var(--tinta); border-bottom: 1px solid var(--tinta); padding-block: 12px; max-width: 480px; }
+.contagem b { font-family: var(--display); font-weight: 400; font-size: 50px; line-height: 1; color: var(--papel); font-variant-numeric: tabular-nums; }
+.contagem span { font-size: 14.5px; line-height: 1.4; }
 .capa-acoes { display: flex; flex-wrap: wrap; align-items: center; gap: 18px; }
-.capa-acoes small { font-family: var(--util); font-size: 12px; color: var(--suave); letter-spacing: .05em; }
-.livro { position: relative; justify-self: center; width: min(100%, 400px); }
-.livro img { box-shadow: 0 30px 60px var(--sombra), 0 6px 16px var(--sombra); transform: rotate(2deg); border: 1px solid var(--linha); }
-.livro .selo { position: absolute; left: -22px; bottom: 36px; background: var(--papel); border: 1px solid var(--linha); padding: 12px 16px; box-shadow: 0 10px 24px var(--sombra); font-family: var(--display); font-style: italic; font-size: 20px; line-height: 1.2; }
-.livro .selo b { display: block; font-family: var(--util); font-style: normal; font-size: 10.5px; font-weight: 600; letter-spacing: .22em; text-transform: uppercase; color: var(--rose); }
+.capa-acoes small { font-size: 12px; letter-spacing: .06em; }
+.livro { position: relative; justify-self: center; width: min(100%, 380px); }
+.livro img { box-shadow: 0 30px 60px rgba(42, 33, 28, .35); transform: rotate(3deg); }
+.livro .selo { position: absolute; left: -26px; bottom: 40px; background: var(--papel); padding: 12px 18px; box-shadow: 0 10px 24px var(--sombra); font-family: var(--display); font-style: italic; font-size: 21px; line-height: 1.2; color: var(--tinta); }
+.livro .selo b { display: block; font-family: var(--corpo); font-style: normal; font-size: 10px; font-weight: 600; letter-spacing: .24em; text-transform: uppercase; color: var(--vermelho); }
 
 /* manifesto */
-.manifesto { background: var(--creme); text-align: center; }
-.manifesto blockquote { margin: 0 auto; font-family: var(--display); font-size: clamp(30px, 4.6vw, 46px); line-height: 1.2; max-width: 22ch; text-wrap: balance; }
-.manifesto blockquote em { color: var(--rose); }
-.manifesto p { margin: 28px auto 0; max-width: 56ch; color: var(--suave); }
+.manifesto { background: var(--papel); }
+.manifesto .wrap { max-width: 820px; }
+.manifesto blockquote { margin: 0; font-family: var(--display); font-weight: 300; font-size: clamp(32px, 4.8vw, 50px); line-height: 1.18; text-wrap: balance; }
+.manifesto blockquote em { color: var(--terracota); }
+.manifesto p { margin-top: 28px; max-width: 58ch; color: var(--texto); }
 
 /* mapa */
+.mapa-sec { background: var(--creme); }
 .mapa-sec .wrap { display: grid; grid-template-columns: 1fr 1.25fr; gap: 56px; align-items: start; }
 .mapa-intro { display: flex; flex-direction: column; gap: 18px; position: sticky; top: 96px; min-width: 0; }
-.mapa-intro p { color: var(--suave); }
-.ritual-card { background: var(--creme); padding: 24px 26px; border-left: 3px solid var(--rose); display: flex; flex-direction: column; gap: 8px; min-height: 176px; }
-.ritual-card .quando { font-family: var(--util); font-size: 11.5px; letter-spacing: .2em; text-transform: uppercase; color: var(--rose); }
+.mapa-intro p { color: var(--texto); }
+.ritual-card { background: var(--papel); padding: 22px 24px; border-left: 3px solid var(--vermelho); display: flex; flex-direction: column; gap: 8px; min-height: 170px; }
+.ritual-card .quando { font-size: 11px; font-weight: 500; letter-spacing: .22em; text-transform: uppercase; color: var(--vermelho); }
 .ritual-card .qual { font-family: var(--display); font-style: italic; font-size: 30px; line-height: 1.15; }
 .meses { display: flex; flex-direction: column; gap: 26px; min-width: 0; }
-.mes h3 { font-size: 26px; font-style: italic; font-weight: 400; margin-bottom: 10px; display: flex; justify-content: space-between; align-items: baseline; }
-.mes h3 span { font-family: var(--util); font-style: normal; font-size: 11px; letter-spacing: .2em; color: var(--suave); }
-.grade { display: grid; grid-template-columns: repeat(7, 1fr); gap: 6px; }
-.dsem { font-family: var(--util); font-size: 10px; letter-spacing: .15em; text-transform: uppercase; color: var(--suave); text-align: center; padding-bottom: 2px; }
-.casa { aspect-ratio: 1; max-width: 100%; border: 1px solid var(--linha); background: var(--papel); color: var(--tinta); font-family: var(--display); font-size: 19px; font-weight: 500; cursor: pointer; display: flex; flex-direction: column; align-items: center; justify-content: center; line-height: 1; padding: 0; transition: background .15s, border-color .15s; font-variant-numeric: tabular-nums; }
-.casa small { font-family: var(--util); font-size: 9px; font-weight: 400; color: var(--suave); margin-top: 3px; letter-spacing: .05em; }
-.casa:hover { border-color: var(--rose); }
-.casa.cp { background: var(--rose-claro); }
-.casa.hoje { border: 2px solid var(--rose); }
-.casa[aria-pressed="true"] { background: var(--rose); color: var(--botao-txt); border-color: var(--rose); }
-.casa[aria-pressed="true"] small { color: var(--botao-txt); }
+.mes h3 { font-size: 28px; font-style: italic; margin-bottom: 10px; display: flex; justify-content: space-between; align-items: baseline; }
+.mes h3 span { font-family: var(--corpo); font-style: normal; font-size: 10.5px; letter-spacing: .22em; color: var(--suave); }
+.grade { display: grid; grid-template-columns: repeat(7, 1fr); gap: 5px; }
+.dsem { font-size: 10px; letter-spacing: .15em; text-transform: uppercase; color: var(--suave); text-align: center; padding-bottom: 2px; }
+.casa { aspect-ratio: 1; max-width: 100%; border: 1px solid var(--linha); background: var(--papel); color: var(--tinta); font-family: var(--display); font-size: 20px; cursor: pointer; display: flex; flex-direction: column; align-items: center; justify-content: center; line-height: 1; padding: 0; transition: background .15s, border-color .15s; font-variant-numeric: tabular-nums; }
+.casa small { font-family: var(--corpo); font-size: 8.5px; color: var(--suave); margin-top: 3px; letter-spacing: .08em; text-transform: uppercase; }
+.casa:hover { border-color: var(--terracota); }
+.casa.cp { background: var(--vermelho); color: var(--papel); border-color: var(--vermelho); }
+.casa.cp small { color: var(--papel); }
+.casa.hoje { border: 2px solid var(--azul-escuro); }
+.casa[aria-pressed="true"] { background: var(--tinta); color: var(--papel); border-color: var(--tinta); }
+.casa[aria-pressed="true"] small { color: var(--papel); }
 .vazio { aspect-ratio: 1; }
-.legenda { font-size: 14px; color: var(--suave); font-style: italic; }
+.legenda { font-size: 14px; color: var(--texto); }
+.legenda i { display: inline-block; width: 11px; height: 11px; background: var(--vermelho); margin-right: 6px; vertical-align: -1px; }
 
 /* conteúdo */
 .dentro-cab { display: flex; flex-direction: column; gap: 14px; max-width: 640px; margin-bottom: 44px; }
-.dentro-cab p { color: var(--suave); }
+.dentro-cab p { color: var(--texto); }
 .galeria { display: grid; grid-auto-flow: column; grid-auto-columns: minmax(220px, 260px); gap: 22px; overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: 18px; margin-bottom: 48px; }
 .galeria figure { margin: 0; scroll-snap-align: start; display: flex; flex-direction: column; gap: 12px; }
-.galeria img { border: 1px solid var(--linha); box-shadow: 0 12px 26px var(--sombra); background: #FBF8F3; }
-.galeria figcaption { font-family: var(--display); font-style: italic; font-size: 20px; text-align: center; }
+.galeria img { box-shadow: 0 12px 26px var(--sombra); background: var(--papel); }
+.galeria figcaption { font-family: var(--display); font-style: italic; font-size: 21px; text-align: center; }
 .lista { display: grid; grid-template-columns: 1fr 1fr; column-gap: 48px; }
 .item { display: grid; grid-template-columns: 1fr auto; gap: 16px; align-items: baseline; padding-block: 16px; border-bottom: 1px solid var(--linha); min-width: 0; }
-.item b { font-weight: 400; font-family: var(--display); font-size: 22px; line-height: 1.2; display: block; }
-.item span { font-size: 14.5px; color: var(--suave); line-height: 1.5; display: block; margin-top: 4px; }
-.item i { font-style: normal; font-family: var(--util); font-size: 11.5px; letter-spacing: .12em; color: var(--rose); white-space: nowrap; font-variant-numeric: tabular-nums; }
+.item b { font-weight: 400; font-family: var(--display); font-size: 23px; line-height: 1.2; display: block; }
+.item span { font-size: 14.5px; color: var(--texto); line-height: 1.5; display: block; margin-top: 4px; }
+.item i { font-style: normal; font-size: 11px; letter-spacing: .14em; color: var(--vermelho); white-space: nowrap; font-variant-numeric: tabular-nums; text-transform: uppercase; }
 
-/* passos */
-.passos { list-style: none; margin: 44px 0 0; padding: 0; display: grid; grid-template-columns: repeat(4, 1fr); gap: 28px; counter-reset: p; }
-.passos li { counter-increment: p; display: flex; flex-direction: column; gap: 10px; border-top: 1px solid var(--tinta); padding-top: 18px; min-width: 0; }
-.passos li::before { content: counter(p, decimal-leading-zero); font-family: var(--display); font-size: 40px; line-height: 1; color: var(--rose); }
-.passos b { font-family: var(--display); font-weight: 500; font-size: 23px; line-height: 1.2; }
-.passos span { font-size: 15px; color: var(--suave); }
+/* passos: as quatro caixas coloridas do "como usar" */
+.passos { list-style: none; margin: 44px 0 0; padding: 0; display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; counter-reset: p; }
+.passos li { counter-increment: p; display: flex; flex-direction: column; gap: 8px; padding: 26px 26px 28px; min-width: 0; }
+.passos li::before { content: counter(p, decimal-leading-zero); font-family: var(--display); font-weight: 300; font-size: 42px; line-height: 1; }
+.passos li:nth-child(1) { background: var(--areia); } .passos li:nth-child(1)::before { color: var(--terracota); }
+.passos li:nth-child(2) { background: var(--azul-claro); } .passos li:nth-child(2)::before { color: var(--azul-escuro); }
+.passos li:nth-child(3) { background: var(--rosa); } .passos li:nth-child(3)::before { color: var(--vermelho); }
+.passos li:nth-child(4) { background: var(--creme); } .passos li:nth-child(4)::before { color: var(--texto); }
+.passos b { font-weight: 600; font-size: 16px; }
+.passos span { font-size: 15px; color: var(--texto); }
 
 /* para quem */
 .pq { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; margin-top: 40px; }
 .pq ul { list-style: none; margin: 14px 0 0; padding: 0; }
 .pq li { padding: 12px 0 12px 30px; border-bottom: 1px solid var(--linha); position: relative; }
-.pq li::before { position: absolute; left: 0; top: 12px; font-family: var(--display); font-size: 22px; line-height: 1.2; }
-.pq .sim li::before { content: "✓"; color: var(--rose); }
+.pq li::before { position: absolute; left: 0; top: 11px; font-family: var(--display); font-size: 22px; line-height: 1.2; }
+.pq .sim li::before { content: "✓"; color: var(--vermelho); }
 .pq .nao li::before { content: "–"; color: var(--suave); }
+.pq .nao .rotulo { color: var(--suave); }
 
 /* oferta */
-.oferta { background: var(--creme); }
-.folha { background: var(--papel); max-width: 620px; margin: 0 auto; padding: 56px 48px; box-shadow: 0 30px 70px var(--sombra); border: 1px solid var(--linha); outline: 1px solid var(--bege); outline-offset: -12px; text-align: center; display: flex; flex-direction: column; align-items: center; gap: 20px; }
-.folha h2 { font-size: clamp(36px, 5vw, 50px); }
-.preco { font-family: var(--display); font-size: 72px; font-weight: 500; line-height: 1; font-variant-numeric: tabular-nums; }
-.preco small { font-size: 26px; vertical-align: top; margin-right: 4px; }
+.oferta { background: var(--terracota); position: relative; overflow: hidden; }
+.oferta::before { content: ""; position: absolute; width: 620px; height: 620px; border-radius: 50%; left: -240px; bottom: -260px; background: var(--terracota-claro); }
+.folha { position: relative; background: var(--papel); max-width: 620px; margin: 0 auto; padding: 56px 48px; box-shadow: 0 30px 70px rgba(42, 33, 28, .3); text-align: center; display: flex; flex-direction: column; align-items: center; gap: 20px; }
+.folha h2 { font-size: clamp(34px, 5vw, 48px); }
+.preco { font-family: var(--display); font-weight: 300; font-size: 84px; line-height: 1; font-variant-numeric: tabular-nums; }
+.preco small { font-size: 28px; vertical-align: top; margin-right: 6px; }
 .folha ul { list-style: none; padding: 0; margin: 0; text-align: left; width: 100%; }
-.folha li { padding: 10px 0 10px 28px; border-bottom: 1px solid var(--linha); position: relative; font-size: 15.5px; }
-.folha li::before { content: "✓"; position: absolute; left: 2px; color: var(--rose); }
-.folha .botao { width: 100%; font-size: 14px; padding-block: 20px; }
-.garantia { font-size: 14px; color: var(--suave); max-width: 44ch; }
+.folha li { padding: 10px 0 10px 28px; border-bottom: 1px solid var(--linha); position: relative; font-size: 15px; }
+.folha li::before { content: "✓"; position: absolute; left: 2px; color: var(--vermelho); }
+.folha .botao { width: 100%; font-size: 13.5px; padding-block: 20px; }
+.garantia { font-size: 13.5px; color: var(--texto); max-width: 46ch; }
+.assina { font-family: var(--assinatura); font-size: 40px; line-height: 1; color: var(--terracota); }
 
 /* faq */
 .faq details { border-bottom: 1px solid var(--linha); padding-block: 20px; }
 .faq summary { cursor: pointer; font-family: var(--display); font-size: 24px; list-style: none; display: flex; justify-content: space-between; gap: 16px; }
 .faq summary::-webkit-details-marker { display: none; }
-.faq summary::after { content: "+"; color: var(--rose); font-size: 28px; line-height: 1; transition: transform .2s; }
+.faq summary::after { content: "+"; color: var(--vermelho); font-size: 28px; line-height: 1; transition: transform .2s; }
 .faq details[open] summary::after { transform: rotate(45deg); }
-.faq details p { margin-top: 10px; color: var(--suave); }
+.faq details p { margin-top: 10px; color: var(--texto); }
 
 .fim { text-align: center; padding-block: 96px; }
 .fim h2 { margin-bottom: 28px; }
-footer { border-top: 1px solid var(--linha); padding-block: 28px; text-align: center; font-family: var(--util); font-size: 11.5px; letter-spacing: .2em; color: var(--suave); text-transform: uppercase; }
+footer { border-top: 1px solid var(--linha); padding-block: 28px; text-align: center; font-size: 11px; letter-spacing: .24em; color: var(--suave); text-transform: uppercase; }
 
 @media (max-width: 860px) {
   section { padding-block: 64px; }
   .capa .wrap, .mapa-sec .wrap, .pq, .lista { grid-template-columns: 1fr; }
-  .capa .wrap { gap: 48px; }
-  .livro { width: min(80%, 340px); }
+  .capa::before { width: 520px; height: 520px; right: -260px; top: auto; bottom: 40px; }
+  .capa::after { width: 360px; height: 360px; right: -200px; top: auto; bottom: 120px; }
+  .livro { width: min(78%, 320px); }
   .mapa-intro { position: static; }
-  .passos { grid-template-columns: 1fr 1fr; }
 }
 @media (max-width: 480px) {
   body { font-size: 16px; }
@@ -163,13 +191,14 @@ footer { border-top: 1px solid var(--linha); padding-block: 28px; text-align: ce
   .casa { font-size: 16px; }
   .casa small { display: none; }
   .livro .selo { left: -8px; }
+  .marca small { display: none; }
   .topo .botao { padding: 10px 14px; letter-spacing: .12em; }
 }
 </style>
 
 <header class="topo">
   <div class="wrap">
-    <span class="marca">AMADA</span>
+    <span class="marca"><svg class="logo" viewBox="0 0 42 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="var(--azul)"/><circle cx="30" cy="12" r="11" fill="#F6F1E7"/><path d="M21 5.6a11 11 0 0 1 0 12.8a11 11 0 0 1 0-12.8z" fill="var(--texto)"/></svg><span>Regenerar<small>por Amanda Martins</small></span></span>
     <a class="botao" href="#oferta">Quero o meu</a>
   </div>
 </header>
@@ -178,9 +207,10 @@ footer { border-top: 1px solid var(--linha); padding-block: 28px; text-align: ce
   <section class="capa">
     <div class="wrap">
       <div class="capa-texto">
-        <span class="rotulo">Desafio · 3 de outubro a 31 de dezembro</span>
-        <h1>Não espere <em>janeiro.</em></h1>
-        <p class="lead">90 dias, um pequeno ritual por dia, para você chegar no fim do ano vivendo a vida que quer, e não só prometendo.</p>
+        <span class="rotulo">Um caderno Regenerar · por Amanda Martins</span>
+        <h1><span class="n">90</span><span class="d">dias</span><em>romantizando minha vida</em></h1>
+        <div class="fio"></div>
+        <p class="lead">Não espere janeiro. Um pequeno ritual por dia, de 3 de outubro a 31 de dezembro.</p>
         <div class="contagem" id="contagem" aria-live="polite">
           <b id="contagem-num">90</b>
           <span id="contagem-txt">dias, de 3 de outubro a 31 de dezembro</span>
@@ -191,7 +221,7 @@ footer { border-top: 1px solid var(--linha); padding-block: 28px; text-align: ce
         </div>
       </div>
       <div class="livro">
-        <img src="img/capa.png" alt="Capa do caderno 90 Dias de Vida Bonita" width="909" height="1287">
+        <img src="img/boasvindas.png" alt="Página de boas-vindas do caderno" width="953" height="1348">
         <div class="selo"><b>dentro</b>90 rituais diários</div>
       </div>
     </div>
@@ -214,7 +244,7 @@ footer { border-top: 1px solid var(--linha); padding-block: 28px; text-align: ce
           <span class="quando" id="ritual-quando">dia 01 · sábado, 3 de outubro</span>
           <span class="qual" id="ritual-qual">Arrume a cama como se fosse de hotel.</span>
         </div>
-        <p class="legenda">Os dias 30, 60 e 90 são checkpoints: uma página inteira para olhar para trás e ajustar a rota.</p>
+        <p class="legenda"><i></i>Os dias 30, 60 e 90 são checkpoints: uma página inteira para olhar para trás e ajustar a rota.</p>
       </div>
       <div class="meses" id="meses"></div>
     </div>
@@ -228,16 +258,17 @@ footer { border-top: 1px solid var(--linha); padding-block: 28px; text-align: ce
         <p>Organizado na ordem em que você vai viver o desafio: começo de semana, rituais do dia, checkpoints. Com links internos para navegar no GoodNotes, no Notability ou no computador.</p>
       </div>
       <div class="galeria" tabindex="0" aria-label="Páginas do caderno">
-        <figure><img src="img/rituais.png" alt="Página com os rituais de outubro" width="909" height="1287"><figcaption>os rituais do mês</figcaption></figure>
-        <figure><img src="img/diario.png" alt="Página do diário com dois dias" width="909" height="1287"><figcaption>diário guiado</figcaption></figure>
-        <figure><img src="img/semana.png" alt="Planner semanal" width="909" height="1287"><figcaption>planner semanal</figcaption></figure>
-        <figure><img src="img/tracker.png" alt="Tracker de hábitos" width="909" height="1287"><figcaption>tracker de hábitos</figcaption></figure>
-        <figure><img src="img/cardapio.png" alt="Cardápio semanal com lista de compras" width="909" height="1287"><figcaption>cardápio + compras</figcaption></figure>
-        <figure><img src="img/mapa.png" alt="Mapa dos 90 dias para pintar" width="909" height="1287"><figcaption>mapa dos 90 dias</figcaption></figure>
-        <figure><img src="img/outubro.png" alt="Calendário de outubro" width="909" height="1287"><figcaption>calendários do mês</figcaption></figure>
+        <figure><img src="img/capa.png" alt="Capa do caderno 90 dias romantizando minha vida" width="953" height="1348"><figcaption>a capa</figcaption></figure>
+        <figure><img src="img/rituais.png" alt="Página com os rituais de outubro" width="953" height="1348"><figcaption>os rituais do mês</figcaption></figure>
+        <figure><img src="img/diario.png" alt="Página do diário com dois dias" width="953" height="1348"><figcaption>diário guiado</figcaption></figure>
+        <figure><img src="img/semana.png" alt="Planner semanal" width="953" height="1348"><figcaption>planner semanal</figcaption></figure>
+        <figure><img src="img/tracker.png" alt="Tracker de hábitos" width="953" height="1348"><figcaption>tracker de hábitos</figcaption></figure>
+        <figure><img src="img/cardapio.png" alt="Cardápio semanal com lista de compras" width="953" height="1348"><figcaption>cardápio + compras</figcaption></figure>
+        <figure><img src="img/mapa.png" alt="Mapa dos 90 dias para pintar" width="953" height="1348"><figcaption>mapa dos 90 dias</figcaption></figure>
+        <figure><img src="img/outubro.png" alt="Calendário de outubro" width="953" height="1348"><figcaption>calendários do mês</figcaption></figure>
       </div>
       <div class="lista">
-        <div class="item"><div><b>90 rituais diários</b><span>Um por dia, com data. Uma página por mês.</span></div><i>3 págs</i></div>
+        <div class="item"><div><b>90 rituais diários</b><span>Um por dia, com data, para consultar quando quiser.</span></div><i>3 págs</i></div>
         <div class="item"><div><b>Diário guiado</b><span>Ritual do dia, três pequenas alegrias, humor e um momento para lembrar.</span></div><i>45 págs</i></div>
         <div class="item"><div><b>Planner semanal</b><span>Para as 13 semanas do desafio, já com as datas.</span></div><i>13 págs</i></div>
         <div class="item"><div><b>Tracker de hábitos</b><span>Até 12 hábitos por semana, com humor e água.</span></div><i>13 págs</i></div>
@@ -292,7 +323,7 @@ footer { border-top: 1px solid var(--linha); padding-block: 28px; text-align: ce
     <div class="wrap">
       <div class="folha">
         <span class="rotulo">Caderno digital · PDF</span>
-        <h2>90 Dias de <em>Vida Bonita</em></h2>
+        <h2>90 dias <em>romantizando minha vida</em></h2>
         <div class="preco"><small>R$</small>27</div>
         <span class="rotulo">pagamento único · acesso ao PDF</span>
         <ul>
@@ -304,6 +335,7 @@ footer { border-top: 1px solid var(--linha); padding-block: 28px; text-align: ce
         </ul>
         <!-- CHECKOUT: troque o href pelo link de pagamento (Hotmart, Kiwify etc.) -->
         <a class="botao" href="#oferta" id="comprar">Quero o meu caderno</a>
+        <span class="assina">Amanda Martins</span>
         <p class="garantia">Produto digital: você recebe o PDF por e-mail após a confirmação do pagamento. Garantia de 7 dias: se não gostar, devolvemos o valor.</p>
       </div>
     </div>
@@ -344,7 +376,7 @@ footer { border-top: 1px solid var(--linha); padding-block: 28px; text-align: ce
   </section>
 </main>
 
-<footer>AMADA · 90 Dias de Vida Bonita</footer>
+<footer>Amanda Martins · Regenerar · 90 dias romantizando minha vida</footer>
 
 <script>
 const RITUAIS = ["Arrume a cama como se fosse de hotel.", "Tome o café da manhã sem o celular por perto.", "Compre flores para você, nem que seja uma só.", "Monte uma playlist para a sua semana.", "Faça uma caminhada de 20 minutos sem fones.", "Use uma roupa que você ama num dia comum.", "Escreva três coisas pelas quais você é grata.", "Acenda uma vela no fim do dia.", "Monte um prato bonito, mesmo que seja só para você.", "Fotografe cinco detalhes bonitos do seu dia.", "Organize a gaveta que mais te incomoda.", "Leia dez páginas de um livro.", "Tome um banho demorado, sem pressa nenhuma.", "Mande uma mensagem carinhosa para alguém.", "Pare para assistir ao pôr do sol.", "Beba água numa taça bonita.", "Faça um piquenique, nem que seja no chão da sala.", "Escreva uma carta para você do futuro.", "Desligue as telas uma hora antes de dormir.", "Conheça um café onde você nunca foi.", "Cozinhe uma receita que você nunca fez.", "Arrume a mesa para uma refeição comum.", "Alongue o corpo logo ao acordar.", "Saia para um encontro com você mesma.", "Troque a roupa de cama e perfume o travesseiro.", "Escute um álbum inteiro, do início ao fim.", "Escreva sobre uma memória feliz da infância.", "Faça uma limpeza no rolo da câmera.", "Cuide de uma planta ou plante algo novo.", "Releia as suas intenções e responda o checkpoint.", "Coma uma fruta devagar, prestando atenção no sabor.", "Use o seu perfume favorito para ficar em casa.", "Liste dez coisas que te fazem feliz.", "Volte para casa por uma rua diferente.", "Prepare um chá e beba sentada, sem fazer mais nada.", "Doe algo que você não usa mais.", "Escreva um elogio sincero para você mesma.", "Assista a um filme que te conforta.", "Prepare um café da manhã especial.", "Fique quinze minutos em silêncio.", "Arrume o seu cantinho de trabalho ou estudo.", "Tire uma foto sua de que você goste.", "Faça uma pausa ao ar livre no meio do dia.", "Passeie por uma livraria ou biblioteca.", "Escreva o que você quer sentir em dezembro.", "Dance uma música inteira, sozinha.", "Prepare uma marmita caprichada.", "Hidrate o corpo inteiro, com calma.", "Diga não para algo que não te faz bem.", "Monte um mural de inspirações.", "Almoce longe da mesa de trabalho.", "Aprenda algo novo por vinte minutos.", "Ligue (não mande áudio) para alguém que você ama.", "Escreva sobre algo que você superou este ano.", "Esvazie e organize a sua bolsa.", "Vá dormir trinta minutos mais cedo.", "Faça um passeio sem destino.", "Cozinhe uma receita de família.", "Escreva cinco coisas que deram certo este mês.", "Revisite o seu mapa e responda o checkpoint.", "Decore um cantinho da casa.", "Faça um mimo para alguém, sem motivo.", "Leia um poema em voz alta.", "Faça o seu skincare sem pressa, como um ritual.", "Coma um doce que você ama, sem culpa.", "Escreva como seria a sua rotina ideal.", "Faça uma faxina de quinze minutos com música alta.", "Acorde cedo para ver o nascer do sol.", "Comece a sua lista de desejos para o ano novo.", "Monte um look novo só com peças que você já tem.", "Deixe um bilhete para alguém da sua casa.", "Respire fundo cinco vezes antes de cada refeição.", "Prepare um jantar à luz de velas.", "Reveja as suas fotos favoritas do ano.", "Caminhe à noite olhando as luzes de fim de ano.", "Faça um presente com as suas mãos.", "Escreva o que você aprendeu sobre você este ano.", "Deixe o celular em outro cômodo por uma hora.", "Asse algo que deixe a casa cheirosa.", "Escreva três sonhos, sem se censurar.", "Tome um café num lugar bonito.", "Agradeça a alguém que fez diferença no seu ano.", "Prepare algo especial para a noite de hoje.", "Descanse sem culpa. Hoje é só isso.", "Escute as músicas que marcaram o seu ano.", "Conte o seu ano em dez fotos.", "Escreva o que você quer deixar no ano que termina.", "Escreva o que você quer levar para o ano novo.", "Prepare um pequeno ritual para amanhã.", "Releia este caderno, responda o checkpoint e celebre você."];
