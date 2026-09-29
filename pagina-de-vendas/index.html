@@ -5,31 +5,22 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=Lora:ital,wght@0,400;1,400&family=Montserrat:wght@400;500;600&display=swap">
 <style>
 /* Layout: a própria folha do caderno. Coluna de leitura estreita, o mapa dos 90 dias como peça central, a oferta como uma página destacada. */
+/* Cores idênticas às do caderno (workbook/style.css). Um visual só, claro, em qualquer tema do aparelho. */
 :root {
   --papel: #FBF8F3;
-  --creme: #F2EAE0;
+  --creme: #F3ECE2;
   --tinta: #3A3431;
-  --suave: #75695F;
-  --rose: #A9695D;
-  --rose-claro: #EFDCD5;
-  --linha: #DDD1C4;
-  --botao-txt: #FFFFFF;
+  --suave: #7D726A;
+  --rose: #B8837A;
+  --bege: #C9B8A6;
+  --rose-claro: #F4E6E1;
+  --linha: #DDD2C6;
+  --botao-txt: #FBF8F3;
   --sombra: rgba(58, 52, 49, .16);
   --display: 'Cormorant Garamond', 'Cormorant', Georgia, 'Times New Roman', serif;
   --texto: 'Lora', Georgia, 'Times New Roman', serif;
   --util: 'Montserrat', 'Helvetica Neue', Arial, sans-serif;
-}
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    --papel: #221D1B; --creme: #2C2624; --tinta: #F0E7DD; --suave: #B8AA9D;
-    --rose: #DDA092; --rose-claro: #4A3530; --linha: #463D38; --botao-txt: #221D1B;
-    --sombra: rgba(0, 0, 0, .45); color-scheme: dark;
-  }
-}
-:root[data-theme="dark"] {
-  --papel: #221D1B; --creme: #2C2624; --tinta: #F0E7DD; --suave: #B8AA9D;
-  --rose: #DDA092; --rose-claro: #4A3530; --linha: #463D38; --botao-txt: #221D1B;
-  --sombra: rgba(0, 0, 0, .45); color-scheme: dark;
+  color-scheme: light;
 }
 
 * { box-sizing: border-box; }
@@ -134,7 +125,7 @@ p { margin: 0; }
 
 /* oferta */
 .oferta { background: var(--creme); }
-.folha { background: var(--papel); max-width: 620px; margin: 0 auto; padding: 56px 48px; box-shadow: 0 30px 70px var(--sombra); border: 1px solid var(--linha); outline: 1px solid var(--linha); outline-offset: -12px; text-align: center; display: flex; flex-direction: column; align-items: center; gap: 20px; }
+.folha { background: var(--papel); max-width: 620px; margin: 0 auto; padding: 56px 48px; box-shadow: 0 30px 70px var(--sombra); border: 1px solid var(--linha); outline: 1px solid var(--bege); outline-offset: -12px; text-align: center; display: flex; flex-direction: column; align-items: center; gap: 20px; }
 .folha h2 { font-size: clamp(36px, 5vw, 50px); }
 .preco { font-family: var(--display); font-size: 72px; font-weight: 500; line-height: 1; font-variant-numeric: tabular-nums; }
 .preco small { font-size: 26px; vertical-align: top; margin-right: 4px; }
