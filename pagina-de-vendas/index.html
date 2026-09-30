@@ -1,5 +1,5 @@
 <title>90 Dias Romantizando Minha Vida</title>
-<meta name="description" content="Um caderno digital da Regenerar, por Amanda Martins: 90 dias, um ritual por dia, para construir uma vida pela qual vale a pena viver. De 3 de outubro a 31 de dezembro.">
+<meta name="description" content="Um caderno digital da Regenerar, por Amanda Martins: 90 dias escolhendo melhor, cuidando da pele, do corpo e da rotina. De 3 de outubro a 31 de dezembro.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;1,6..72,300;1,6..72,400&family=Archivo:wght@400;500;600&family=Ephesis&display=swap">
@@ -196,6 +196,19 @@ footer { border-top: 1px solid var(--linha); padding-block: 28px; text-align: ce
   .marca small { display: none; }
   .topo .botao { padding: 10px 14px; letter-spacing: .12em; }
 }
+
+/* quatro cuidados */
+.pilares-intro { margin-top: 18px; max-width: 58ch; color: var(--texto); }
+.pilares { margin-top: 40px; display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+.pilar { display: flex; flex-direction: column; gap: 10px; padding: 26px 22px; border-top: 3px solid var(--vermelho); background: var(--creme); min-width: 0; }
+.pilar:nth-child(2) { border-color: var(--terracota); background: var(--rosa); }
+.pilar:nth-child(3) { border-color: var(--azul-escuro); background: var(--azul-claro); }
+.pilar:nth-child(4) { border-color: var(--texto); background: var(--areia); }
+.pilar b { font-family: var(--display); font-weight: 400; font-style: italic; font-size: 27px; line-height: 1.1; }
+.pilar p { font-size: 15px; color: var(--texto); }
+.pilar span { margin-top: auto; font-size: 12.5px; color: var(--suave); font-style: italic; }
+@media (max-width: 860px) { .pilares { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 480px) { .pilares { grid-template-columns: 1fr; } }
 </style>
 
 <header class="topo">
@@ -212,7 +225,7 @@ footer { border-top: 1px solid var(--linha); padding-block: 28px; text-align: ce
         <span class="rotulo">Um caderno Regenerar · por Amanda Martins</span>
         <h1><span class="n">90</span><span class="d">dias</span><em>romantizando minha vida</em></h1>
         <div class="fio"></div>
-        <p class="lead">Não espere janeiro. Um ritual por dia para construir uma vida pela qual vale a pena viver, de 3 de outubro a 31 de dezembro.</p>
+        <p class="lead">Não espere janeiro. 90 dias escolhendo melhor: cuidando da pele, do corpo e da rotina, de 3 de outubro a 31 de dezembro.</p>
         <div class="contagem" id="contagem" aria-live="polite">
           <b id="contagem-num">90</b>
           <span id="contagem-txt">dias, de 3 de outubro a 31 de dezembro</span>
@@ -233,7 +246,21 @@ footer { border-top: 1px solid var(--linha); padding-block: 28px; text-align: ce
     <div class="wrap">
       <blockquote>Romantizar a vida não é fingir que está tudo perfeito. É escolher <em>prestar atenção.</em></blockquote>
       <p class="virada">Mas romantizar é só o começo. <em>O que você constrói nesses 90 dias é uma vida pela qual vale a pena viver.</em></p>
-      <p>Não é sobre dieta, rotina impossível ou virar outra pessoa. É sobre prestar atenção no seu dia e, a partir disso, construir de verdade: hábitos que se sustentam, uma semana planejada, refeições pensadas e pausas para olhar o caminho. Pequenas escolhas, repetidas, que viram a vida que você quer ter.</p>
+      <p>Não é sobre dieta, rotina impossível ou virar outra pessoa. É sobre escolher melhor todos os dias: cuidar da pele com constância, cuidar do corpo, planejar a semana, comer com mais atenção. Pequenas escolhas, repetidas, que viram a vida que você quer ter. E que ficam mais fáceis quando outras mulheres fazem junto.</p>
+    </div>
+  </section>
+
+  <section class="pilares-sec" id="cuidados">
+    <div class="wrap">
+      <span class="rotulo">Os quatro cuidados</span>
+      <h2>Escolher melhor, <em>todos os dias.</em></h2>
+      <p class="pilares-intro">O caderno não te dá uma rotina pronta. Ele te ajuda a sustentar as escolhas que você decidir fazer: pela sua pele, pelo seu corpo, pelos seus dias.</p>
+      <div class="pilares">
+        <div class="pilar"><b>Escolher melhor</b><p>Um ritual por dia e um planner semanal para decidir com calma: o que entra na sua agenda, o que sai, onde fica o celular.</p><span>ex.: dia 19, desligue as telas uma hora antes de dormir</span></div>
+        <div class="pilar"><b>Pele</b><p>No tracker de hábitos você coloca a sua rotina de cuidados e marca todo dia. Constância vale mais do que ter muitos produtos.</p><span>ex.: dia 64, faça o seu skincare sem pressa, como um ritual</span></div>
+        <div class="pilar"><b>Corpo</b><p>Tracker com água, cardápio da semana com lista de compras e rituais que te colocam em movimento.</p><span>ex.: dia 05, caminhada de 20 minutos sem fones</span></div>
+        <div class="pilar"><b>Juntas</b><p>Faça com uma amiga, com a irmã, com a mãe. Mulher que cuida de si inspira a do lado, e vários rituais são sobre cuidar de quem você ama.</p><span>ex.: dia 53, ligue para alguém que você ama</span></div>
+      </div>
     </div>
   </section>
 
@@ -304,11 +331,13 @@ footer { border-top: 1px solid var(--linha); padding-block: 28px; text-align: ce
         <div class="sim">
           <span class="rotulo">É para você se</span>
           <ul>
+            <li>quer cuidar da pele e do corpo com constância, sem rotina impossível</li>
             <li>sente que o ano passou rápido demais</li>
             <li>quer uma vida que faça sentido no dia a dia, não só nas férias</li>
             <li>quer mais presença na rotina, sem mudar tudo de uma vez</li>
             <li>quer criar hábitos que continuem depois dos 90 dias</li>
             <li>gosta de escrever, planejar e ver o próprio progresso</li>
+            <li>quer fazer junto com outras mulheres</li>
             <li>prefere começar agora a esperar janeiro</li>
           </ul>
         </div>
@@ -316,6 +345,7 @@ footer { border-top: 1px solid var(--linha); padding-block: 28px; text-align: ce
           <span class="rotulo">Não é para você se</span>
           <ul>
             <li>procura um plano de dieta ou de treino</li>
+            <li>procura tratamento para um problema de pele (aí o caminho é um dermatologista)</li>
             <li>quer um caderno físico entregue em casa</li>
             <li>não gosta de escrever nada à mão ou no tablet</li>
           </ul>
@@ -365,6 +395,10 @@ footer { border-top: 1px solid var(--linha); padding-block: 28px; text-align: ce
       <details>
         <summary>Quanto tempo leva por dia?</summary>
         <p>Os rituais são pequenos e pensados para caber num dia comum: um café sem celular, uma caminhada, um bilhete para alguém. O diário pede poucas linhas.</p>
+      </details>
+      <details>
+        <summary>Tem uma rotina de skincare pronta?</summary>
+        <p>Não, porque cada pele é de um jeito. Você coloca a sua rotina no tracker de hábitos e acompanha todo dia. Se tiver alguma questão de pele, o ideal é conversar com um dermatologista.</p>
       </details>
       <details>
         <summary>Posso dar de presente?</summary>
